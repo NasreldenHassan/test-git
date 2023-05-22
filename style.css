@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Quicksand:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background:rgb(51, 47, 79) ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+} 
+
+.logo{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform:uppercase ;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(114, 100, 237);
+    cursor: pointer;
+    transition: 0.9s ease;
+}
+
+section{
+    padding: 100px 200px;
+} 
+.main{
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    background : url(imeges/IMG_5284-PhotoRoom-PhotoRoom.png) no-repeat;
+    background-size: contain;
+    background-position: center ;
+    background-attachment: fixed;
+    background-position-y: 7em;
+}
+.main h2{
+    color: #050407;
+    font-size: 1.8em;
+    font-weight:500 ;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(151, 64, 156);
+    font-size: 2em;
+    font-weight: 900;
+}
+.main h3{
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: #e5e2e2;
+    background-color:rgb(114, 65, 175) ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: .9375em 2.1875em;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: rgb(126, 111, 145);
+    transform: scale(1.1);
+}
+
+.social-media a{
+    color: #000000;
+    font-size:1.7em ;
+    padding-right: 30px ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(126, 111, 145) ;
+    font-size: 2.5em;
+    font-weight: 800 ;
+    margin-bottom: 30px;
+}
+
+
+.content{
+    
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(123, 120, 148);
+    width: 80em;
+    box-shadow: 0 5px 25px rgba(1 1 1/40%);
+    border-radius: 20px;
+    padding: 25px; 
+    transition: 0.7s ease;   
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: darkslateblue;
+    font-size: 5em;
+    text-align: center;
+}
+
+.info{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
